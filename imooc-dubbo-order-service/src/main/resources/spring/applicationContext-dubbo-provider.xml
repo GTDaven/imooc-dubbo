@@ -17,5 +17,8 @@
 	<!-- 暴露具体的服务接口 -->
 	<dubbo:service retries="3" interface="com.imooc.order.service.OrdersService" 
 		ref="ordersService"></dubbo:service>
-	
+	 
+	<!-- 监控服务的注册 -->
+	<!--<dubbo:monitor protocol="registry"></dubbo:monitor>
+	 -->
 </beans>

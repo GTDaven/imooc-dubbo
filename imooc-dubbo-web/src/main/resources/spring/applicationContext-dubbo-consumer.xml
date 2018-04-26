@@ -16,5 +16,8 @@
 		retries="3" check="false" init="true"></dubbo:reference>
 	<dubbo:reference id="ordersService" interface="com.imooc.order.service.OrdersService"
 		retries="3" check="false" init="true"></dubbo:reference>
-		
+	<!-- 	
+	监控服务的注册
+	<dubbo:monitor protocol="registry"></dubbo:monitor>
+	 -->
 </beans>

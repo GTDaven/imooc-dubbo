@@ -18,4 +18,7 @@
 	<dubbo:service retries="3" interface="com.imooc.item.service.ItemsService" 
 		ref="itemsService"></dubbo:service>
 	
+	<!-- 监控服务的注册 -->
+	<!-- <dubbo:monitor protocol="registry"></dubbo:monitor>
+	 -->
 </beans>
